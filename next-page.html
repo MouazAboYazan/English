@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EMUB</title>
+</head>
+
+<hr>
+    <header class="nav" id="nav">
+        <a href="#" class="logo" id="logo">emub</a>
+    </header>
+
+    <section class="videoSection" id="videosection">
+        <div class="container" id="container">
+            <h1 class="welcomeText" id="p">Welcome to Lesson 2</h1>
+            <hr>
+            </hr>
+            <p class="instructions" id="p">Play the video and answer the questions.</p>
+            <div class="videoContainer" id="container">
+                <iframe src="https://www.youtube.com/embed/wiKK5wQLIrc?si=5ZeSB6g8wQDGNbS2" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="question-container" class="question-container">
+        <div class="container">
+            <div class="questionBox" id="btns">
+                <h2 class="question" id="question">What is the capital of France?</h2>
+                <input type="text" class="userInput" id="userInput" placeholder="Write your answer here">
+                <p class="result" id="result"></p>
+                <div class="btns">
+                    <button class="btn" id="backButton">Back</button>
+                    <button  class="btn" id="checkButton">Check</button>
+                    <button class="btn" id="nextButton">Next</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
